@@ -9,3 +9,7 @@ console.log('String',b);
 
 // Template literal
 console.log(`100 divided by 2 is ${100/2}`);
+
+// Unary operator
+console.log(typeof 10);
+console.log(-a);
