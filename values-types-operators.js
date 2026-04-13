@@ -22,8 +22,22 @@ console.log(-a);
 
 const isUserValid = true; // Binary values either have true or false value.
 const userId = 10;
-// Logical operators, are used to produce boolean values, and are used for comparison.
+// Logical operators, are used to produce boolean values, and are used for comparison. &&, ||, !
 
 if(isUserValid && userId === 10){
   return "Admin 10"
 }
+
+// Comparison operator. Decide which value is greater, lesser and output a boolean value.
+// >, <, >=, <=, ==, ===
+
+if(100 > 80){
+ return true;
+}
+
+// Empty values null, undefined
+// They don't hold any particular value, just signify as placeholder.
+
+// Short circuiting, returns a value on left or right based on the operator used.
+// 1 && 2, since 1 evaluates to true, this expression prints 1.
+// 1 || 2, since 1 evaluates to true, this expression prints 2 
