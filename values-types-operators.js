@@ -19,3 +19,11 @@ two bits.
 console.log(typeof 10);
 console.log(-a);
 
+
+const isUserValid = true; // Binary values either have true or false value.
+const userId = 10;
+// Logical operators, are used to produce boolean values, and are used for comparison.
+
+if(isUserValid && userId === 10){
+  return "Admin 10"
+}
