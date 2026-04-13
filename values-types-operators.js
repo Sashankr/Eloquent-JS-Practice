@@ -39,5 +39,5 @@ if(100 > 80){
 // They don't hold any particular value, just signify as placeholder.
 
 // Short circuiting, returns a value on left or right based on the operator used.
-// 1 && 2, since 1 evaluates to true, this expression prints 1.
-// 1 || 2, since 1 evaluates to true, this expression prints 2 
+// 1 && 2, since 1 evaluates to true, this expression prints 2.
+// 1 || 2, since 1 evaluates to true, this expression prints 1 
