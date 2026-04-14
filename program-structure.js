@@ -22,5 +22,17 @@ console.log(temp); // undefined
 
 const BASE_DAMAGE = 1.0;
 
+// The Environment.
+// It means the collection of variables and values that exist in a particular time.
+// When a program starts it doesn't start empty, it has variables and functions that help to interact with the browser
+// Listening to mouse and keyboard events.
 
+// Functions
+// They are a variable that bind to a program.
+// We can call this program by calling, invoking or applying it.
 
+// in browsers the prompt binding, allows us to take user input.
+// the values that are supplied to the function are called arguements.
+// Each function can define, how many arguements it needs.
+// prompt takes a message arguement, to print what value must the user provide.
+// prompt('Enter name');
