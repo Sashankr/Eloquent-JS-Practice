@@ -10,6 +10,17 @@ let a = 10;
 a = 20;
 console.log(a); // 20
 
+// when we declare a variable but don't assign it a value we get undefined as the default value. because the tentacle has nothing to hold on to.
+let temp;
+console.log(temp); // undefined
+
+
+// We can define variables with var, let and const.
+// var is old way of declaring variables, pre es-2015.
+// let is new way of declaring variables.
+// const lets us define variables whose value doesn't change.
+
+const BASE_DAMAGE = 1.0;
 
 
 
