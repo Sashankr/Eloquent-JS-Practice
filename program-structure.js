@@ -64,3 +64,14 @@ while(count < 10){
  count++;
 }
 console.log('2 power 10 = ',result);
+
+// do while is similar to while
+// only difference is that it's executed at least once before checking the condition.
+let name = "";
+let namePrintCount = 0;
+do{
+ console.log('Hello');
+ name = "Sashank"
+ namePrintCount++;
+ console.log('Hello', name);
+} while(namePrintCount < 2)
