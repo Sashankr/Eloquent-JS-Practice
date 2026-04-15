@@ -36,3 +36,12 @@ const BASE_DAMAGE = 1.0;
 // Each function can define, how many arguements it needs.
 // prompt takes a message arguement, to print what value must the user provide.
 // prompt('Enter name');
+
+// console.log prints the value that is passed to it.
+// it works because, console is a binding, which exports the log binding, which is why it has access to it.
+console.log("10"); 
+
+const maxvalue = Math.max(1,2,11,3,4,29);
+console.log(maxvalue); // Math.max is a function that returns the max values from a list of numbers.
+
+
