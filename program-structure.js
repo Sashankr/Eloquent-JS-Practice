@@ -44,4 +44,15 @@ console.log("10");
 const maxvalue = Math.max(1,2,11,3,4,29);
 console.log(maxvalue); // Math.max is a function that returns the max values from a list of numbers.
 
+// Control flow
+// This can be controlled by using, if, if else, else blocks
+
+if(maxvalue < 10){
+ console.log('small');
+} else if(maxvalue < 20){
+  console.log('medium');
+} else{
+  console.log("large");
+}
+
 
