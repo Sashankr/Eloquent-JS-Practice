@@ -55,4 +55,12 @@ if(maxvalue < 10){
   console.log("large");
 }
 
+// Loops, we use them to repeat a set of statements until a condition is satisfied.
 
+let count = 0;
+let result = 1;
+while(count < 10){
+ result = result * 2;
+ count++;
+}
+console.log('2 power 10 = ',result);
