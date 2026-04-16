@@ -74,4 +74,14 @@ do{
  name = "Sashank"
  namePrintCount++;
  console.log('Hello', name);
-} while(namePrintCount < 2)
+} while(namePrintCount < 2);
+
+// for loop. it's similar to while but , the initialization, condition and increment are all passed in a single line
+let result2 = 1;
+for(let i=0;i<10;i++){
+ result2 = result2 * 2;
+}
+
+console.log(result2);
+
+// we can use the break and continue to exit early or continue to the next iteration respectively.
