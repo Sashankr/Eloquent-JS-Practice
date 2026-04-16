@@ -85,3 +85,19 @@ for(let i=0;i<10;i++){
 console.log(result2);
 
 // we can use the break and continue to exit early or continue to the next iteration respectively.
+
+// switch control flow, it helps us in cases where multiple if, else if are added one after the other.
+let currentItem = "ice-cream";
+let price = 0;
+switch(currentItem){
+  case "ice-cream" : 
+    price = 30;
+    break;
+  case "chocolate":
+    price = 20;
+    break;
+  default :
+    price = 10;
+    break;
+}
+console.log(currentItem,price);
