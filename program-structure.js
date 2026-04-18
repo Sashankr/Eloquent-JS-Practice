@@ -156,5 +156,37 @@ for(let i=1;i<=100;i++){
     console.log(i);
   }
 }
+/*
+Chessboard
+Write a program that creates a string that represents an 8×8 grid, using
+newline characters to separate lines. At each position of the grid there
+is either a space or a "#" character. The characters should form a
+chessboard.
+Passing this string to c
 
+*/
 
+let gridSize=8;
+let evenRowPattern = "";
+let oddRowPattern = "";
+
+for(let i=0;i<=gridSize-1;i++){
+ if(i%2===0){
+   evenRowPattern+=" ";
+   oddRowPattern+="#";
+  }
+  else{
+    evenRowPattern+="#";
+    oddRowPattern+=" ";
+  }
+
+}
+
+for(let i=0;i<=gridSize-1;i++){
+  if(i%2===0){
+    console.log(evenRowPattern);
+  }
+  else{
+    console.log(oddRowPattern);
+  }
+}
